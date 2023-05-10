@@ -1,0 +1,42 @@
+{
+  "patient": {
+    "patientId": "P123456",
+    "firstName": "John",
+    "lastName": "Doe",
+    "dateOfBirth": "1985-01-01",
+    "gender": "M",
+    "address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "12345",
+      "country": "USA"
+    },
+    "phoneNumber": "555-555-1234",
+    "email": "johndoe@example.com"
+  },
+  "referringVet": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "npi": "1234567890"
+  },
+  "performingVet": {
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "npi": "0987654321"
+  },
+  "study": {
+    "studyId": "S123",
+    "studyDateTime": "2023-05-10T10:00:00",
+    "studyDescription": "X-ray of the chest"
+  },
+  "order": {
+    "orderId": "O123",
+    "orderDateTime": "2023-05-09T15:30:00"
+  },
+  "observationRequest": {
+    "observationRequestId": "OB123",
+    "observationRequestDateTime": "2023-05-09T16:00:00",
+    "observationRequestDescription": "X-ray of the chest"
+  }
+}
